@@ -13,7 +13,7 @@ const observer = new IntersectionObserver((entries) => {
 revealEls.forEach(el => observer.observe(el));
 
 
-const CALENDLY_URL = "https://calendly.com/findurartisan/new-meeting";
+const CALENDLY_URL = "https://calendly.com/e-arivuchelvan/new-meeting";
 
 document.querySelectorAll('[data-cta]').forEach(btn => {
   if (CALENDLY_URL) {
